@@ -1,0 +1,23 @@
+{
+  "name": "pipe-css-splitter",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-Morse/pipe-css-splitter.git"
+  },
+  "keywords": [],
+  "author": "Tom Morse <tom-morse@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tom-Morse/pipe-css-splitter/issues"
+  },
+  "homepage": "https://github.com/Tom-Morse/pipe-css-splitter#readme",
+  "dependencies": {
+    "postcss": "6.0.14"
+  }
+}
