@@ -1,3 +1,5 @@
+/* eslint max-len: [2, 180, 4] */
+/* eslint brace-style: ["error", "1tbs", { "allowSingleLine": true }] */
 var postcss = require('postcss');
 
 const extractDecl = (rule, names) => {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "homepage": "https://github.com/Tom-Morse/pipe-css-splitter#readme",
   "dependencies": {
     "postcss": "6.0.14"
+  },
+  "devDependencies": {
+    "eslint": "4.12.0",
+    "eslint-config-postcss": "2.0.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
   }
 }
