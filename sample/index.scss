@@ -1,0 +1,25 @@
+// Light Theme
+// @import "theme-color-mapping-light";
+$sample-bg-color: #ddd;
+$sample-color: #222;
+
+.light {
+    .sample {
+        height: 100%;
+        color: $sample-color;
+        background-color: $sample-bg-color;
+    }
+}
+
+// Dark Theme
+// @import "theme-color-mapping-dark";
+$sample-bg-color: #222;
+$sample-color: #ddd;
+
+.dark {
+    .sample {
+        height: 100%;
+        color: $sample-color;
+        background-color: $sample-bg-color;
+    }
+}

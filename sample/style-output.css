@@ -1,0 +1,13 @@
+.sample {
+    height: 100%
+}
+
+.dark .sample {
+    color: #ddd;
+    background-color: #222
+}
+
+.light .sample {
+    color: #222;
+    background-color: #ddd
+}
